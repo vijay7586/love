@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Yes or No</title>
+</head>
+<body>
+
+    <div class="container">
+        <p id="question" class="question">Do you wanna go out with me?</p>
+		<img id="image" class="image" src="image1.gif" alt="Cat">
+        <div class="button-container">
+            <button id="yesBtn" onclick="showFinalMessage()">Yes</button>
+            <button id="noBtn" onclick="moveNoButton()">No</button>
+        </div>
+    </div>
+	
+	
+    <div id="messageContainer" class="hidden">
+		<p id="message" class="question">Yeeyy ! Finally</p>
+		<img id="image" class="image" src="image2.gif" alt="HappyCat">
+		<p id="finalMessage" class="message">Let's Fix a Date</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
